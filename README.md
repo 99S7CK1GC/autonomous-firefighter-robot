@@ -2,7 +2,7 @@
 
 > **ART** (Arduino Robotic Training) — organized by **Wameedh Scientific Club**
 
-A dual-mode Arduino robot built for the ART competition. It operates in two modes: an **autonomous line-following + obstacle avoidance** mode, and a **Bluetooth-controlled manual mode** with a custom MIT App Inventor remote and a fire-extinguishing pump.
+A dual-mode Arduino robot built for the ART competition. It operates in two modes: an **autonomous line-following + obstacle avoidance** mode, and a **Bluetooth-controlled manual mode** with a custom KODULAR APP Controller remote and a fire-extinguishing pump.
 
 ---
 
@@ -13,7 +13,7 @@ A dual-mode Arduino robot built for the ART competition. It operates in two mode
 │   ├── autonomous_mode.ino       # Line follower + obstacle avoidance
 │   └── manual_mode.ino           # Bluetooth control + fire pump
 ├── app/
-│   ├── controller.aia            # MIT App Inventor source project
+│   ├── controller.aia            # KODULAR source project
 │   └── controller.apk            # Ready-to-install Android APK
 ├── diagram/
 │   └── schematic.png             # Full circuit schematic
@@ -37,7 +37,7 @@ If the **HC-SR04 ultrasonic sensor** detects an obstacle closer than 5 cm, the r
 - Obstacle ≤ 5 cm → stop for 5 seconds
 
 ### 🕹️ Manual Mode (Bluetooth + Fire Pump)
-Controlled via a custom **MIT App Inventor** Android app over an **HC-05 Bluetooth module**. Commands are single characters sent over serial:
+Controlled via a custom **KODULAR** Android app over an **HC-05 Bluetooth module**. Commands are single characters sent over serial:
 
 | Command | Action |
 |---------|--------|
@@ -95,18 +95,18 @@ Additional features in manual mode:
 
 ---
 
-## 📱 MIT App Inventor Controller
+## 📱 KODULAR Controller
 
 The Android app (`.apk` in `/app`) connects via Bluetooth and sends movement commands to the robot. It also includes a button to activate the water pump for fire extinguishing.
 
-To modify the app, open the `.aia` file in [MIT App Inventor](https://appinventor.mit.edu/).
+To modify the app, open the `.aia` file in [KODULAR](https://www.kodular.io/).
 
 ---
 
 ## 🚀 Getting Started
 
 1. Wire the circuit according to the schematic in `/diagram`
-2. Upload the appropriate `.ino` file using the [Arduino IDE](https://www.arduino.cc/en/software)
+2. Upload the appropriate `.ino` file using the [Arduino IDE](https://www.arduino.cc/en/softwar)
 3. For manual mode: install the APK from `/app` on an Android device and pair with the HC-05 module (default PIN: `1234`)
 4. Power on the robot
 
@@ -119,6 +119,8 @@ Organized by Wameedh Scientific Club · Year 1, University
 
 ---
 
-## 📝 Notes
-
-This project was built during my **first year at university** as part of the ART robotics competition. Since then I've moved on to STM32 and more advanced embedded systems work — but this project represents where it all started. The code is kept as-is from the competition, intentionally unrefactored.
+## REMARK
+This project was done by the help of my mates 
+BELLILI ABDELAZIZ
+BENHLIMA AMINE 
+& BOUCETTA SLIMANE
