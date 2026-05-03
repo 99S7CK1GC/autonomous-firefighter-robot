@@ -60,7 +60,7 @@ Additional features in manual mode:
 | Component | Purpose |
 |-----------|---------|
 | Arduino Uno | Main microcontroller |
-| L298N Motor Driver | Controls 2 DC motors |
+| L298N Motor Driver | Controls 4 DC motors |
 | HC-SR04 Ultrasonic | Obstacle detection |
 | HC-05 Bluetooth Module | Wireless communication (manual mode) |
 | IR Sensors (×3) | Line detection (autonomous) / boundary sensing (manual) |
