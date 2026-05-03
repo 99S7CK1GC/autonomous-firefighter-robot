@@ -1,4 +1,4 @@
-# 🤖 ART Competition Robot — 1st Place 🥇
+# 🤖 ART Competition Robot V8.0 — 1st Place 🥇
 
 > **ART** (Arduino Robotic Training) — organized by **Wameedh Scientific Club**
 
@@ -121,6 +121,6 @@ Organized by Wameedh Scientific Club · Year 1, University
 
 ## REMARK
 This project was done by the help of my mates 
-BELLILI ABDELAZIZ
-BENHLIMA AMINE 
+BELLILI ABDELAZIZ,
+BENHALIMA AMINE 
 & BOUCETTA SLIMANE
